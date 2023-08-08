@@ -1,4 +1,4 @@
-# TweetsMapreduce
+![image](https://github.com/MahdiTheGreat/TweetsMapreduce/assets/47212121/71f8c9ce-0840-47bb-8e5f-7c5fdbb0ae1d)# TweetsMapreduce
 In this project, using the Yarn framework, we set up a Hadoop cluster using three virtual machines and run some MapReduce programs on it. To create virtual machines, install Hadoop, and set up the cluster, the steps mentioned in the link below are used:
 
 https://pnunofrancog.medium.com/how-to-set-up-hadoop-3-2-1-multi-node-cluster-on-ubuntu-20-04-inclusive-terminology-2dc17b1bff19
@@ -19,9 +19,11 @@ The ‎WebGUI‏ of the cluster can also be accessed from our computer:
 
 ![image](https://github.com/MahdiTheGreat/TweetsMapreduce/assets/47212121/5cd1c4de-98a9-464f-9bf2-387d5617580e)
 
-From the active nodes section in WebGUI, we can get some information about the nodes' resources and examine the correlation of this information with the resources we have assigned to the virtual machines. As can be seen in the images below, the accessible external memory is equal to 19.56 GB, which is close to the memory allocated to the primary VM (with NameNode), which is equal to 20 GB, of which 4.31 GB is allocated to dfs. It can also be seen that the number of live nodes is equal to two, and these nodes are h-secondary1 and h-secondary2, which have the data nodes, and each has access to 9.78 GB (total equal to 19.56 ) of external memory.
+From the active nodes section in WebGUI, we can get some information about the nodes' resources and examine the correlation of this information with the resources we have assigned to the virtual machines. As can be seen in the images below, the accessible external memory is equal to 19.56 GB, which is close to the memory allocated to the primary VM (with NameNode), which is equal to 20 GB, of which 4.31 GB is allocated to DFS. It can also be seen that the number of live nodes is equal to two, and these nodes are h-secondary1 and h-secondary2, which have the data nodes, and each has access to 9.78 GB (total equal to 19.56 ) of external memory.
 
 ![image](https://github.com/MahdiTheGreat/TweetsMapreduce/assets/47212121/8a1a910f-bbcf-4c47-8c3c-d9bfe1560dfa)
+
+![image](https://github.com/MahdiTheGreat/TweetsMapreduce/assets/47212121/498e47fe-e6ce-40df-8c7a-8e116b2e7095)
 
 # Dataset Description 
 This dataset contains 172 million tweets about the US election. The records of this dataset have 21 columns. You can see the available information about the columns of this dataset in the link below.
