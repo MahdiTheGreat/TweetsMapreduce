@@ -62,7 +62,7 @@ Next we write a MapReduce program in CountryTweets.java that shows what percenta
 
 For this, we use the country field. The country field in the dataset does not necessarily contain standard values; Therefore, to write this program, it is necessary to check that each of the names of the above countries are present in the COUNTRY field. For example, if the value of this field for a tweet was equal to "somewhere in Iran", we consider this tweet to be in Iran. We also perform this search in a case-insensitive manner. Finally, the total number of tweets related to that country is also mentioned. The output can be seen below:
 
-America 0.18529914 0.36928996 0.4454109	332484
+<code>America 0.18529914 0.36928996 0.4454109	332484
 Austria 0.33100882 0.18921432 0.47977686	2151
 Canada 0.20643142 0.2853135 0.5082551	27801
 Emirates 0.40140188 0.29485983 0.30373833	2140
@@ -73,7 +73,7 @@ Italy 0.34374377 0.2708209 0.38543534	20076
 Mexico 0.40878657 0.26304686 0.32816657	10903
 Netherlands 0.31765893 0.2559704 0.42637068	14865
 Spain 0.37975731 0.2186983 0.4015444	7252
-United Kingdom 0.24617557 0.27885544 0.474969	58048
+United Kingdom 0.24617557 0.27885544 0.474969	58048</code>
 
 For example in the output for America, 18% of tweets were about both candidates, 36% were about Joe Biden and 44% of were about Donald Trump. Also, 332484 of all the tweets in the datasets belonged to America.
 
@@ -87,8 +87,9 @@ Finally, we write A MapReduce program in CountryTweetsBySpec.java with the same 
 51 > Latitude > 41.6
 
 The output can be seen below:
-America 0.1932835 0.3576839 0.4490326	425370
-France 0.38364026 0.21766117 0.39869857	53326
+
+<code>America 0.1932835 0.3576839 0.4490326	425370
+France 0.38364026 0.21766117 0.39869857	53326</code>
 
 As can be seen, the percentages related to America and France are quite close to each other in the two answers, and the biggest difference between them is about three percent, but the number of tweets in the two answers is very different. This indicates that the parameters of longitude and latitude are not appropriate for data classification.
 
