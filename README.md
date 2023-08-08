@@ -83,9 +83,8 @@ Finally, we write A MapReduce program in CountryTweetsBySpec.java with the same 
 <br><code>-68 > Longitude > -161.75
 64.85 > Latitude > 19.5</code></br>
 - France
-  
-<code>9.45 > Longitude > -4.65
-51 > Latitude > 41.6</code>
+<br><code>9.45 > Longitude > -4.65
+51 > Latitude > 41.6</code></br>
 
 The output can be seen below:
 
