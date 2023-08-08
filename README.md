@@ -80,9 +80,11 @@ For example in the output for America, 18% of tweets were about both candidates,
 Finally, we write A MapReduce program in CountryTweetsBySpec.java with the same functionality and output format as CountryTweets.java with the difference that this time we use latitude and longitude to determine the country from which the tweet was sent. In this program, we only examine the tweets related to the countries of America and France. The longitude and latitude of the countries of America and France are approximate as follows:
 
 - America
+  
 <code>-68 > Longitude > -161.75
 64.85 > Latitude > 19.5</code>
 - France
+  
 <code>9.45 > Longitude > -4.65
 51 > Latitude > 41.6</code>
 
