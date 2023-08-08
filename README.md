@@ -1,4 +1,4 @@
-![image](https://github.com/MahdiTheGreat/TweetsMapreduce/assets/47212121/71f8c9ce-0840-47bb-8e5f-7c5fdbb0ae1d)# TweetsMapreduce
+# TweetsMapreduce
 In this project, using the Yarn framework, we set up a Hadoop cluster using three virtual machines and run some MapReduce programs on it. To create virtual machines, install Hadoop, and set up the cluster, the steps mentioned in the link below are used:
 
 https://pnunofrancog.medium.com/how-to-set-up-hadoop-3-2-1-multi-node-cluster-on-ubuntu-20-04-inclusive-terminology-2dc17b1bff19
