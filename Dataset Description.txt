@@ -1,0 +1,87 @@
+The 2020 US election is happening on the 3rd November 2020 and the resulting impact to the world will no doubt be large, irrespective of which candidate is elected! After reading the two papers, here and here, I was inspired to attempt a similar sentiment analysis myself!
+Content
+
+Tweets collected, using the Twitter API statuses_lookup and snsscrape for keywords, with the original intention to try to update this dataset daily so that the timeframe will eventually cover 15.10.2020 and 04.11.2020. Added 06.11.2020 With the events of the election still ongoing as of the date that this comment was added, I've decided to keep updating the dataset with tweets until at least the end of the 6th Nov. Added 08.11.2020, just one more version pending to include tweets until at the end of the 8th Nov.
+
+    Columns are as follows:
+
+        created_at: Date and time of tweet creation
+        tweet_id: Unique ID of the tweet
+        tweet: Full tweet text
+        likes: Number of likes
+        retweet_count: Number of retweets
+        source: Utility used to post tweet
+        user_id: User ID of tweet creator
+        user_name: Username of tweet creator
+        user_screen_name: Screen name of tweet creator
+        user_description: Description of self by tweet creator
+        user_join_date: Join date of tweet creator
+        user_followers_count: Followers count on tweet creator
+        user_location: Location given on tweet creator's profile
+        lat: Latitude parsed from user_location
+        long: Longitude parsed from user_location
+        city: City parsed from user_location
+        country: Country parsed from user_location
+        state: State parsed from user_location
+        state_code: State code parsed from user_location
+        collected_at: Date and time tweet data was mined from twitter*
+
+Acknowledgements
+
+        @taniaj and her great Australian Election 2019 Tweets dataset, I used as a template for this dataset.
+
+        Thanks to Twitter for providing the free API and snsscrape to allow collection of the tweet_ids.
+
+    Cover photo by Jorge Alcala on Unsplash
+    Unsplash Images are distributed under a unique Unsplash License.
+
+Inspiration
+
+My primary interest for creating this dataset is to ascertain if there is a correlation between the sentiment of users on Twitter and the eventual election results. Other ideas that might be interesting to investigate include:
+
+        Can we detect if there are or were any attempts at manipulating the election.
+        Can we predict the candidate from tweet text only.
+        Can we predict the election outcome of each state.
+
+I also included still valid and interesting ideas from the Australian Election 2019 Tweets dataset below:
+
+        Take into account retweets and favourites to weight overall sentiment analysis.
+        Which parts of the world are interested (ie: tweet about) in the US elections, apart from the US?
+        How do the users who tweet about this sort of thing tend to describe themselves?
+        Is there a correlation between when the user joined Twitter and their political views (this assumes the sentiment analysis is already working well)?
+        Predict gender from username/screen name and segment tweet count and sentiment by gender
+
+Version
+
+        Version 3 - 355,000 tweets collected, using the Twitter API statuses_lookup and snsscrape for keywords between 15.10.2020 and 22.10.2020.
+
+        Version 5 - New tweets collected for the date of 23.10.2020, with a new total number of tweets at around 387,000 tweets.
+
+        Version 6 - New tweets collected for the date of 24.10.2020, with a new total number of tweets at around 418,000 tweets. Additionally the "coordinates" column was removed with "lat" and "long" columns added for geolocation data (where possible).
+
+        Version 7 - New tweets collected for the date of 25.10.2020, with a new total number of tweets at around 456,000 tweets. Added column "collected_at" to indicate when the data was mined from twitter. *Note this data is only accurate from 21.10.2020 onwards, data in the subject column before this date is an estimation.
+
+        Version 8 - New tweets collected for the date of 26.10.2020, with a new total number of tweets at around 492,000 tweets.
+
+        Version 9 - New tweets collected for the date of 27.10.2020, with a new total number of tweets at around 533,000 tweets.
+
+        Version 10 - New tweets collected for the date of 28.10.2020, with a new total number of tweets at around 568,000 tweets. Added new geo location features city, country, continent, state, state_code.
+
+        Version 11 - New tweets collected from 30.10.2020 to 31.10.2020, with a new total number of tweets at around 641,000 tweets.
+
+        Version 12 - New tweets collected for the date of 01.11.2020, with a new total number of tweets at around 689,000 tweets.
+
+        Version 13 - New tweets collected for the date of 02.11.2020, with a new total number of tweets at around 741,000 tweets.
+
+        Version 14 - New tweets collected for the date of 03.11.2020, with a new total number of tweets at around 809,000 tweets.
+
+        Version 15 - New tweets collected for the date of 04.11.2020, with a new total number of tweets at around 1,093,000 tweets.
+
+        Version 16 - New tweets collected for the date of 05.11.2020, with a new total number of tweets at around 1,210,000 tweets.
+
+        Version 17 - New tweets collected for the date of 06.11.2020, with a new total number of tweets at around 1,346,000 tweets.
+
+        Version 18 - New tweets collected for the date of 07.11.2020, with a new total number of tweets at around 1,598,000 tweets.
+
+        Version 19 - New tweets collected for the date of 08.11.2020, with a new total number of tweets at around 1,727,000 tweets.
+
